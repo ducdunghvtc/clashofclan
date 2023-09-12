@@ -1,0 +1,119 @@
+/*
+Theme Name: flatsome-child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.top-acc h2 {
+  background-color: #d30048;
+  padding: 6px;
+  margin-bottom: 0px;
+}
+.items-title-lines {
+  width: 80px;
+  height: 3px;
+  background-color: #ff9800;
+  margin: 0 auto 30px;
+}
+.service-item {
+  border: 1px solid #fff;
+  padding: 2px;
+  text-align: center;
+  border-radius: 4px;
+}
+.service-item .button {
+  background-color: #ff9800;
+}
+.product-item .product-small.box {
+  border: 1px solid #ddd;
+}
+span.woocommerce-Price-amount.amount bdi {
+  color: red;
+}
+.thongtin {
+  margin: 10px 0 0;
+}
+.thongtin .chitiet {
+  background-color: #FFC107;
+  color: white;
+  width: 70%;
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.thongtin .chitiet:hover {
+  opacity: .7;
+}
+.top-acc ul.product_list_widget bdi {
+  color: #ffd606;
+}
+ul.product_list_widget li a {
+  color: #fff;
+}
+.related .category {
+  display: none;
+}
+.related .title-wrapper, .related .price-wrapper {
+  text-align: center;
+}
+.product-small.box {
+  border: 1px solid #ddd;
+}
+
+.scroll-to-bullets a, .featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current, .nav-pagination > li > span:hover, .nav-pagination > li > a:hover, .has-hover:hover .badge-outline .badge-inner, button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline), .featured-table .title, .is-outline:hover, .has-icon:hover .icon-label, .nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover, .grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt, .nav-box > li > a:hover, .nav-box > li.active > a, .nav-pills > li.active > a, .current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before, .banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner {
+  background-color: #f9b405;
+}
+.review-form-inner {
+  border-color: #f9b405;
+}
+.product-info .cart, .product-info .product_meta {
+  display: none;
+}
+.product-info .contact-wrap {
+  margin: 35px 0;
+}
+.product-info .contact-wrap button {
+  background-color: #FFC107;
+  color: white;
+  width: 50%;
+  padding: 5px;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+}
+.product-info .contact-wrap button:hover {
+  opacity: .7;
+}
+.woocommerce-breadcrumb, #product-sidebar {
+  display: none;
+}
+.box-text-products {
+  text-align: center;
+}
+.box-text-products .category {
+  display: none;
+}
+#contact-form-popup h3 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 850px) {
+  .products .product-small.col {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
